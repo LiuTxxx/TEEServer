@@ -141,8 +141,8 @@ int SGX_CDECL main(int argc, char *argv[]) {
 
   /* Some parameter */
   const char *ip = "127.0.0.1";
-  int port = 30000;
-  int num_of_clients = 2;
+  int port = 30010;
+  int num_of_clients = 3;
 
   /* Initialize the enclave */
   if (initialize_enclave() < 0) {
